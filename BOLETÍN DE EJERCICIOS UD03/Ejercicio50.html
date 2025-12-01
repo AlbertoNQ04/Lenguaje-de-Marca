@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="Esto es la descirpcion que aparece en el navegador.">
+    <meta name="keywords" content="Ejemplo, plantilla, hmtml, etc">
+    <meta name="author" content="Alberto Nolasco">
+    <meta name="application-name" content="Plantilla.html">
+    <meta name="generator" content="VSCode">
+
+</head>
+
+<body>
+<form action="#">
+    <fieldset>
+        <legend>Datos básicos</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" size="50"><br><br>
+        <label for="descripcion">Descripción:</label><br>
+        <textarea id="descripcion" name="descripcion" rows="5" cols="50"></textarea><br><br>
+        <label for="foto">Foto:</label>
+        <input type="file" id="foto" name="foto"><br><br>
+        <input type="checkbox" id="contadorVisitas" name="contadorVisitas">
+        <label for="contadorVisitas">Añadir contador de visitas</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Datos económicos</legend>
+        <label for="precio">Precio:</label>
+        <input type="text" id="precio" name="precio"> € &nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="impuestos">Impuestos:</label>
+        <select id="impuestos" name="impuestos">
+            <option value="4">4%</option>
+        </select><br><br>
+        <legend>Promoción</legend>
+        <input type="radio" id="ninguno" name="promocion" value="Ninguno" checked>
+        <label for="ninguno">Ninguno</label><br>
+        <input type="radio" id="transporte" name="promocion" value="Transporte gratuito">
+        <label for="transporte">Transporte gratuito</label><br>
+        <input type="radio" id="descuento" name="promocion" value="Descuento 5%">
+        <label for="descuento">Descuento 5%</label>
+    </fieldset>
+</form>
+</body>
+
+</html>
