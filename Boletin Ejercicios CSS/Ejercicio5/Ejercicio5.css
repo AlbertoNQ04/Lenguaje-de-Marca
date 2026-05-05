@@ -1,0 +1,49 @@
+#titulo {
+    color: teal;
+}
+
+.suspendi {
+    color: red;
+}
+
+.destacado {
+    color: orange;
+}
+
+#subtitulo {
+    color: blue;
+}
+
+.a {
+    color: red;
+}
+
+.a em {
+    color: blue;
+}
+
+caption {
+    color: blue;
+}
+
+table,
+th
+td {
+    border: 1px solid black;
+}
+
+.especial {
+    color: orange;
+}
+
+th {
+    color: red;
+}
+
+table {
+    color: green;
+}
+
+table strong {
+    color: orange;
+}
