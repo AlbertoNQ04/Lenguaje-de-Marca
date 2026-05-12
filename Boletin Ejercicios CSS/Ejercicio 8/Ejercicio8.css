@@ -1,0 +1,37 @@
+table {
+    background-color: LightGray;
+}
+
+.td1 {
+    background-color: DimGray;
+    color: white;
+}
+
+.td2 {
+    background-color: IndianRed;
+    color: white;   
+}
+
+.td3 {
+    background-color: FireBrick;
+    color: white;   
+}
+
+.td4 {
+    background-color: DodgerBlue;
+    color: white;
+}
+
+.td5 {
+    background-color: Indigo;
+    color: white;
+}
+
+#td3 {
+    background-color: FireBrick;
+    color: white;
+}
+
+th {
+    background-color: rgb(129, 126, 126);
+}

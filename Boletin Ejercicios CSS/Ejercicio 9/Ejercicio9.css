@@ -1,0 +1,46 @@
+body {
+    font-size: 16px;
+    color: #444;
+    background-color: white;
+    line-height: 1.4;
+}
+
+.titulo {
+    font-size: 18px;
+    color: #da2929;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.parrafo {
+    max-width: 760px;
+    margin-bottom: 14px;
+}
+
+.parrafo-azul {
+    color: #3f85cf;
+}
+
+.subrayado {
+    text-decoration: underline;
+    color: #e61313;
+}
+
+.rojo {
+    color: #a94442;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.resaltado {
+    background-color: #2f2f2f;
+    color: #d9d96a;
+    font-weight: bold;
+    font-style: italic;
+}

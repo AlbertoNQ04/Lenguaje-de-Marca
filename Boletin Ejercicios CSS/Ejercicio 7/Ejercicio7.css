@@ -18,3 +18,7 @@ p.tercero {
 a {
     background-color: rgba(34, 215, 10, 0.3);
 }
+
+p.tercero{
+    background-color: rgba(34, 215, 10, 0.8);
+}
