@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(0, 54, 50);
+}
+
+p {
+    color: blue;
+}
+
+p.segundo {
+    color: #f57a27;
+}
+
+p.tercero {
+    color: hsl(10%, 10%, 30%);
+    background-color: hsla(30%, 25%, 30%);
+}
+
+a {
+    background-color: rgba(34, 215, 10, 0.3);
+}

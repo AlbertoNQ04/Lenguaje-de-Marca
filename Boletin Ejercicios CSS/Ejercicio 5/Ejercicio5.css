@@ -42,8 +42,22 @@ th {
 
 table {
     color: green;
+    border-collapse: collapse;
 }
 
 table strong {
     color: orange;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+#adicional {
+    color: green;
+}
+
+#especial {
+    color: purple;
 }
